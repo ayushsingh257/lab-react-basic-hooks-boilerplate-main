@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  /* Align items horizontally in the center */
+  /* Align items vertically in the center */
+   /* Set the height of the body to full viewport height */
+  margin: 0; /* Remove default body margin */
+}
+
+.box {
+  background-color: black;
+  height: 200px;
+  width: 100%; /* Adjust the width of the box */
+  margin-bottom: 20px;
+  position: absolute;
+  top: 10%;
+  
+}
+
+.content-btn,
+.like-section {
+  position: fixed;
+}
+
+.toggle-btn {
+ position: absolute;
+ left: 50%;
+ top: -25%;
+}
+
+.content-btn {
+  position: absolute;
+  top: 90px;
+ left: 50%;
+
+}
+
+.like-section {
+  top: 30%;
+  left: 50.5%;
+}
